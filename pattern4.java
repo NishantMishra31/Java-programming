@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class pattern4 {
     public static void main(String args[]){
+
+        // inverted half-pyramid
+
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sc.close();
