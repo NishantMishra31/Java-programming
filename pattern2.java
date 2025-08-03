@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class pattern2 {
     public static void main(String args[]){
+
+        // hollow rectangle
+        
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sc.close();
