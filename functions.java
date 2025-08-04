@@ -16,16 +16,6 @@ public class functions {
         return a * b;
     }
 
-    public static long factorial(int a){
-        if (a < 0) return -1;
-        if (a == 0) return 1;
-        long fact = 1;
-        while(a > 1){
-            fact = fact * a;
-            a--;
-        }
-        return fact;
-    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String firstName = sc.next();
@@ -36,6 +26,5 @@ public class functions {
         printMyName(firstName, surName);
         System.out.println(addition(a, b));
         System.out.println(multiply(a, b));
-        System.out.println(factorial(a));
     }
 }
