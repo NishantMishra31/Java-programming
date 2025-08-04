@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class pattern8 {
     public static void main(String args[]){
 
-        // numerical triangle
-        
+        // number ascending right triangle
+
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sc.close();
