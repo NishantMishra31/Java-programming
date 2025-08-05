@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class pattern10 {
     public static void main(String[] args) {
 
-        // butterfly pattern
+        // butterfly pattern with stars
         
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
