@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class powerNum {
 
+    // to calculate x raised to some power n
+
     public static long exponential(int x, int n){
         long result = 1;
         while(n > 0){
