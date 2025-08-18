@@ -14,24 +14,24 @@ public class strings {
         System.out.println(sentence);
 
         // length
-        System.out.println(fullName.length());
+        System.out.println(fullName.length()); // length of the string
 
         // charAt
         for(int i = 0; i < fullName.length(); i++){
-            System.out.print(fullName.charAt(i));
+            System.out.print(fullName.charAt(i)); // index traversal
         }
         System.out.println();
 
         // compareTo
-        if(firstName.compareTo(lastName) == 0){
+        if(firstName.compareTo(lastName) == 0){ // if(name1 == name2) can be ambiguous
             System.out.println("same entry both places");
         }
         else System.out.println("good entries");
 
         // substring
-        String first3letters = fullName.substring(0, 3);
-        System.out.println(first3letters);
-        
+        String last3letters = fullName.substring(fullName.length() - 3); // begin index, last index(default length exclusive)
+        System.out.println(last3letters);
+
         sc.close();
     }
 }
