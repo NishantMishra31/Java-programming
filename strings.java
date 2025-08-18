@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// basic string declaration and implementation
+
 public class strings {
     public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);
