@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// 2d array declaration and implementation
+
 public class arrays_2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
