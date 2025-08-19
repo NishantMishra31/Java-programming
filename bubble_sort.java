@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class bubble_sort {
 
+    // this takes O(N^2) TC 
+    
     public static void bubble(int[] arr) {
         int n = arr.length;
         for(int i = n - 1; i >= 1; i--){
