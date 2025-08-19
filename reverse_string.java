@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class reverse_string {
 
+    // written swap function
     public static void swap(StringBuilder str, int i, int j) {
         char temp = str.charAt(i);
         str.setCharAt(i, str.charAt(j));
