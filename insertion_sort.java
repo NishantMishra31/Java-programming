@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class insertion_sort {
     
+    // this takes O(N^2) TC
+    
     public static void insertion(int arr[]){
         int n = arr.length;
         for(int i = 0; i < n; i++){
