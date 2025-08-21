@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class selection_sort {
 
-    // this takes O(N^2) TC 
+    // this also takes O(N^2) TC 
 
     public static void selection(int[] arr) {
         int n = arr.length;
