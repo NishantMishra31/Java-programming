@@ -13,7 +13,7 @@ public class fibanacci {
         int a = 0, b = 1;
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.print(a + ", " + b + ", ");
+        System.out.print(a + ", " + b + ", "); // prints first two terms manually
         printFib(a, b, n - 2);
         sc.close();
     }
