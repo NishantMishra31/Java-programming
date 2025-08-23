@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class fibanacci {
-
+    
+    // to print the fibonacci sequence till n terms
     public static void printFib(int a, int b, int n){
         if(n == 0) return;
         int c = a + b;
