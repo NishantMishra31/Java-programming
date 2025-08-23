@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class greaterNum {
+
     public static int printNum(int a, int b){
         return Math.max(a, b);
     }

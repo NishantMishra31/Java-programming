@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class numberCount {
 
     public static void countNum(int n, Scanner sc){
+
+        // count numbers' nature (positive, negative and zero)
         int posCount = 0, negCount = 0, zeroCount = 0;
         while(n > 0){
             int a = sc.nextInt();
