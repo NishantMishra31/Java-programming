@@ -1,6 +1,8 @@
 public class sum_of_n_numbers {
 
     public static int sum_natural(int n) {
+
+        // calculates sum of n numbers recursively
         if(n == 0) return 0;
         return n + sum_natural(n - 1);
     }
