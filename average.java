@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class average {
 
+    // to print average of three numbers
     public static int averageNumbers(int a, int b, int c){
         int avg = (a + b + c) / 3;
         return avg;
