@@ -6,7 +6,8 @@ public class fibanacci {
     public static void printFib(int a, int b, int n){
         if(n == 0) return;
         int c = a + b;
-        System.out.print(c + ", ");
+        System.out.print(c);
+        if(n > 1) System.out.print(", "); // to handle trailing comma
         printFib(b, c, n - 1);
     }
     public static void main(String[] args) {
