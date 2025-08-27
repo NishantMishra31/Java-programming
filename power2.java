@@ -4,12 +4,12 @@ public class power2 {
 
     public static double calcpower(int x, int n){
         if(n == 0) return 1; // base case
-        double half = calcpower(x, n / 2);
+        double half = calcpower(x, n / 2); // recursive logn
         if(n % 2 == 0){ // if n is even
-            return half * half; // recursive logn
+            return half * half; 
         }
         else{
-            return half * half * x; // recursive logn
+            return half * half * x;
         }
     }
     public static void main(String[] args) {
