@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class sum_of_n_numbers {
 
     public static int sum_natural(int n) {
@@ -8,6 +10,9 @@ public class sum_of_n_numbers {
     }
 
     public static void main(String[] args) {
-        System.out.println(sum_natural(5));
+        Scanner sc  = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println(sum_natural(n));
+        sc.close();
     }
 }
