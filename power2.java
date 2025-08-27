@@ -2,13 +2,14 @@ import java.util.Scanner;
 
 public class power2 {
 
-    public static int calcpower(int x, int n){
+    public static double calcpower(int x, int n){
         if(n == 0) return 1; // base case
+        double half = calcpower(x, n / 2);
         if(n % 2 == 0){ // if n is even
-            return calcpower(x, n / 2) * calcpower(x, n / 2); // recursive logn
+            return half * half; // recursive logn
         }
         else{
-            return calcpower(x, n / 2) * calcpower(x, n / 2) * x; // recursive logn
+            return half * half * x; // recursive logn
         }
     }
     public static void main(String[] args) {
