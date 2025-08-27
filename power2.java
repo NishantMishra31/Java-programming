@@ -4,11 +4,11 @@ public class power2 {
 
     public static int calcpower(int x, int n){
         if(n == 0) return 1; // base case
-        if(n % 2 == 0){ 
-            return calcpower(x, n / 2) * calcpower(x, n / 2); 
+        if(n % 2 == 0){ // if n is even
+            return calcpower(x, n / 2) * calcpower(x, n / 2); // recursive logn
         }
         else{
-            return calcpower(x, n / 2) * calcpower(x, n / 2) * x;
+            return calcpower(x, n / 2) * calcpower(x, n / 2) * x; // recursive logn
         }
     }
     public static void main(String[] args) {
