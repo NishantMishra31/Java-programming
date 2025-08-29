@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class tower_of_hanoi {
 
-    // classic tower of hanoi problem with 3 disks and n number of disks
+    // classic tower of hanoi problem with 3 disks and n input number of disks
     public static void tower(int n, String src, String helper, String dest) {
         if(n == 1){ // base case
             System.out.println("transfer disk " + n + " from " + src + " to " + dest);
