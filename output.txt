@@ -1,2 +1,7 @@
-4
-12
+transfer disk 1 from A to C
+transfer disk 2 from A to B
+transfer disk 1 from C to B
+transfer disk 3 from A to C
+transfer disk 1 from B to A
+transfer disk 2 from B to C
+transfer disk 1 from A to C

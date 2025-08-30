@@ -14,7 +14,7 @@ public class tower_of_hanoi {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt(); // input number of disks
+        int n = sc.nextInt(); // input number of disks from user
         tower(n, "A", "B", "C"); // call with tower names
         sc.close();
     }
